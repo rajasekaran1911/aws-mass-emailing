@@ -1,2 +1,17 @@
-# aws-mass-emailing
-AWS Lambda Mass Emailing 🚀  Automates mass email sending using AWS Lambda, S3, and SES. Upload a CSV to S3, and Lambda reads it to send emails via SES.  ✅ Trigger emails via S3 upload ✅ Uses AWS SES for delivery ✅ Scalable &amp; cost-effective  📌 Note: SES sandbox mode allows emails only to verified addresses.
+# AWS Lambda Mass Emailing Project
+
+This project automates mass email sending using AWS Lambda, S3, and SES. When a CSV file containing email addresses is uploaded to an S3 bucket, a Lambda function reads the file and sends emails using Amazon Simple Email Service (SES).
+
+## 🚀 Features
+- ✅ Upload CSV file to S3 to trigger emails
+- ✅ AWS Lambda reads and processes the file
+- ✅ Uses AWS SES to send emails to verified addresses
+- ✅ Scalable and cost-effective email solution
+
+## 🛠️ Technologies Used
+- AWS Lambda
+- AWS S3 (Simple Storage Service)
+- AWS SES (Simple Email Service)
+- Python (Boto3 SDK)
+
+## 📂 Project Structure
