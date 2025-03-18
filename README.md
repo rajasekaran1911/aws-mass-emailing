@@ -15,3 +15,23 @@ This project automates mass email sending using AWS Lambda, S3, and SES. When a 
 - Python (Boto3 SDK)
 
 ## 📂 Project Structure
+aws-mass-emailing/
+│── lambda_function.py  
+│── requirements.txt    
+│── README.md           
+│── .gitignore          
+│── emails_sample.csv  
+│── cloudformation.yaml 
+│── terraform/          
+└── venv/     
+
+📧 Notes
+SES Sandbox Mode: You can only send emails to verified addresses.
+To send emails to unverified users, request SES production access.
+Ensure IAM permissions are correctly set for S3 and SES.
+
+📝 License
+This project is licensed under the MIT License.
+
+👨‍💻 Author
+Your Name - Rajasekaran J B         
